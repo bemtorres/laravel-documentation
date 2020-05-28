@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/dist/css/custom.css">
     <script src="/distjs/modernizr.js"></script>
     <link rel="stylesheet" href="/dist/css/custom.css">
+    <link rel="stylesheet" href="/dist/fontawesome/css/all.min.css">
     
 </head>
 <body id="page-top" class="politics_version">
@@ -64,11 +65,17 @@
               <a class="nav-link js-scroll-trigger active" href="#home">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                <a class="nav-link js-scroll-trigger" href="#quienes">¿Quienes Somos?</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#proyecto">Proyecto</a>
             </li>
-			<!-- <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#moodle">Platafoma</a>
+              </li>
+			{{-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger btn-success" href="#contact"><i class="fa fa-whatsapp"></i> Contacte con Nosotros</a>
-            </li> -->
+            </li> --}}
           </ul>
         </div>
       </div>
@@ -76,16 +83,18 @@
 	
 	<section id="home" class="main-banner parallaxie" style="background: url('/dist/uploads/banner2.png')">
 		<div class="heading">
-			<h1>Edugestion</h1>
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <h1>Edugestión</h1>
+            
+			<p>"Somos un equipo de desarrollo de soluciones tecnológicas <br> para problemáticas institucionales en el areas académica y administrativa."</p>
 			<h3 class="cd-headline clip is-full-width">
-                <span>Que hacemos nosotros: </span>
+                <span>¿Que ofrecemos?</span>
                 <br>
 				<span class="cd-words-wrapper">
-					<b class="is-visible">Plataforma Estudiantial</b>
+					<b class="is-visible">Plataformas Estudiantiles</b>
 					<!-- <b></b> -->
-					<b>Gamificación</b>
+					<b>Desarrollos infomáticos</b>
 					<b>Sistemas Administrativos</b>
+					<b>Páginas Institucionales</b>
 				</span>
 			</h3>
 		</div>
@@ -116,32 +125,31 @@
         </path>
     </svg>
 
-    <div id="about" class="section wb">
+    <div id="quienes" class="section wb">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="message-box">                        
                         <h2>Acerca de EduGestión.</h2>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-						<p>Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo.</p>
-                        <a href="#" class="sim-btn btn-hover-new btn-success text-white" data-text=" Hablanos por whatsapp"><i class="fa fa-whatsapp"></i><span> Hablanos por whatsapp</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
+                        <p>Somos un equipo de desarrollo de soluciones tecnológicas para problemáticas institucionales en el areas académica y administrativa. <br> En busca de mejora continua ad hoc las necesidades de la institución. </p>
+						{{-- <p>.</p> --}}
+                        <a href="https://wa.me/56998299855" target="_blink" class="sim-btn btn-hover-new btn-success text-white" data-text=" Hablanos por whatsapp"><i class="fab fa-whatsapp"></i><span> Hablanos por whatsapp</span></a>
+                    </div>
+                </div>
                 <div class="col-md-6">
                     <div class="right-box-pro wow fadeIn">
                         <img src="/dist/uploads/items1.jpg" alt="" class="img-fluid img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	
-    <div id="services" class="section lb">
+    <div id="proyecto" class="section lb">
         <div class="container">
             <div class="section-title text-left">
-                <h3>Proyecto Administrativos EduGestion</h3>
-                <p>Es un sistema web desarrollado para administraciones internas con alumnos.</p>
+                <h3>Proyecto EduGestión</h3>
+                <p>Es un sistema web desarrollado para administraciones internas en establecimientos educacionales.</p>
             </div>
 
             <div class="row">
@@ -150,62 +158,109 @@
 						<div class="ser-icon">
                             <!-- <i class="flaticon-seo"></i> -->
 							<i class="fa fa-award"></i>
-                            
 						</div>
-						<h2>Incripción de Eventos</h2>
+						<h2>Inscripción de Eventos</h2>
 						<p>Crea tu evento, supervisa los asistentes, preinscribe e inscribe. Revisa los reportes y analiza los resultados.</p>
 					</div>
                 </div><!-- end col -->
                 <div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-development"></i>
+							<i class="fas fa-vote-yea"></i>
 						</div>
-						<h2>Responsive Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2>Inscripción de Votación</h2>
+						<p>Gestiona votaciones, asigna candidatos, vota de forma online. <strong>votación 100% confidencial y segura</strong>. Revisa los resultados en tiempo real.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-process"></i>
+							<i class="fas fa-fingerprint"></i>
 						</div>
-						<h2>Creative Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2>Formularios</h2>
+						<p>Crea formualarios para entrega, solicitud y prestamos de recursos a estudiantes o a terceros. Registra de manera rápida y eficaz.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
+                
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-discuss-issue"></i>
+							<i class="fab fa-chromecast"></i>
 						</div>
-						<h2>Support</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2>Videollamadas</h2>
+						<p>Incorpora un canal de reunión con los usuarios de la plataforma, de forma oculta con clave o privada.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-idea"></i>
+							<i class="fas fa-user-clock"></i>
 						</div>
-						<h2>Web Idea</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2>Toma de Hora</h2>
+						<p>Reserva hora de atención de los alumnos a la agenda de un especialista, verifica la disponibilidad y calendario de la agenda.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
-							<i class="flaticon-idea-1"></i>
+							<i class="fas fa-user-graduate"></i>
 						</div>
-						<h2>Graphic Design</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2>Alumnos</h2>
+						<p>Gestiona a los alumnos, crea, edita y asigna fotos, para que el sistema reconozca los alumnos.</p>
 					</div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-	
-	<div id="portfolio" class="section lb">
+                </div>
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="fas fa-biking"></i>
+						</div>
+						<h2>Estacionamiento de Bicicletas</h2>
+						<p>Registra la entrada y salida de bicicleta mendiante dos simples pasos. Genera reportes de frecuencias y analiza los resultados.</p>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div id="moodle" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Plataformas Educacionales</h3>
+                <p>.</p>
+            </div>
+
+            <div class="row">
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+                            <!-- <i class="flaticon-seo"></i> -->
+							<i class="fa fa-award"></i>
+						</div>
+						<h2>Crear cursos didáctivos e interactivos.</h2>
+						<p>Crea diferentes tipos de experiencias enseñando desde métodos didáctivos y divertidos que ofrece la plataforma.</p>
+					</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="fab fa-chromecast"></i>
+						</div>
+						<h2>Clases online</h2>
+						<p>Crea tu propia clase en linea, sin limites ni restricciones. Graba, comparte y guarda tu clase virtual.</p>
+					</div>
+                </div>
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="fas fa-user-graduate"></i>
+						</div>
+						<h2>Alumnos</h2>
+						<p>Gestiona a los alumnos, analiza su participación y sus avances mediente la gamificación.</p>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	{{-- <div id="fotos" class="section lb">
 		<div class="container">
 			<div class="section-title text-left">
                 <h3>Portfolio</h3>
@@ -280,208 +335,11 @@
 			</div>
 			</div>
 		</div>
-	</div>
-	
-	 <!-- <div id="testimonials" class="section wb">
-        <div class="container">
-            <div class="section-title text-left">
-                <h3>Testimonials</h3>
-                <p>We thanks for all our awesome testimonials! There are hundreds of our happy customers! </p>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="testi-carousel owl-carousel owl-theme">
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_01.png" alt="" class="img-fluid alignleft">
-                                <h4>James Fernando <small>- Manager of Racer</small></h4>
-                            </div>                           
-                        </div>
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_02.png" alt="" class="img-fluid alignleft">
-                                <h4>Jacques Philips <small>- Designer</small></h4>
-                            </div>
-                        </div>
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_03.png" alt="" class="img-fluid alignleft">
-                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
-                            </div>
-                        </div>
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_01.png" alt="" class="img-fluid alignleft">
-                                <h4>James Fernando <small>- Manager of Racer</small></h4>
-                            </div>
-                        </div>
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_02.png" alt="" class="img-fluid alignleft">
-                                <h4>Jacques Philips <small>- Designer</small></h4>
-                            </div>
-                        </div>
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_03.png" alt="" class="img-fluid alignleft">
-                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-<!-- 	
-	<div id="blog" class="section lb">
-		<div class="container">
-			<div class="section-title text-left">
-                <h3>Blog</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            </div>
-			
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="uploads/blog-01.jpg" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-                                <li>by admin</li>
-                                <li>Apr 21, 2018</li>
-                                <li><a href="#"><b> Comments</b></a></li>
-                            </ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="uploads/blog-02.jpg" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-                                <li>by admin</li>
-                                <li>Apr 21, 2018</li>
-                                <li><a href="#"><b> Comments</b></a></li>
-                            </ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="uploads/blog-03.jpg" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-                                <li>by admin</li>
-                                <li>Apr 21, 2018</li>
-                                <li><a href="#"><b> Comments</b></a></li>
-                            </ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</div> -->
-
-    <!-- <div id="contact" class="section db">
-        <div class="container">
-            <div class="section-title text-left">
-                <h3>Contact</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="contact_form">
-                        <div id="message"></div>
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="form-group">
-										<input class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
-										<p class="help-block text-danger"></p>
-									</div>
-									<div class="form-group">
-										<input class="form-control" id="phone" type="tel" placeholder="Your Phone" required="required" data-validation-required-message="Please enter your phone number.">
-										<p class="help-block text-danger"></p>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<textarea class="form-control" id="message" placeholder="Your Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-										<p class="help-block text-danger"></p>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="col-lg-12 text-center">
-									<div id="success"></div>
-									<button id="sendMessageButton" class="sim-btn btn-hover-new" data-text="Send Message" type="submit">Send Message</button>
-								</div>
-							</div>
-						</form>
-                    </div>
-                </div><!-- end col -->
-            </div>
-        </div>
-    </div> -->
-
+    </div> --}}
     
     <div class="social-bar">
-        <a href="#" class="icon icon-facebook fa fa-facebook"target="_blank">&nbsp;</a>
-        <a href="https://wa.me/56998299855" class="icon icon-whatsapp fa fa-whatsapp" target="_blank"></a>
+        <a href="https://www.facebook.com/Edugestioncl-108730994193089" class="icon icon-facebook fab fa-facebook"target="_blank"></a>
+        <a href="https://wa.me/56998299855" class="icon icon-whatsapp fab fa-whatsapp" target="_blank"></a>
         <!-- <a href="https://www.instagram.com/#name" class="icon icon-instagram  fa fa-instagram" target="_blank"></a> -->
     </div>
     
@@ -497,19 +355,12 @@
         </div><!-- end container -->
     </div>
 
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-	<!-- Camera Slider -->
-	<script src="js/jquery.mobile.customized.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script> 
-	<script src="js/parallaxie.js"></script>
-	<script src="js/headline.js"></script>
-	<!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-    <script src="js/jquery.vide.js"></script>
-
+    <script src="/dist/js/all.js"></script>
+	<script src="/dist/js/jquery.mobile.customized.min.js"></script>
+	<script src="/dist/js/jquery.easing.1.3.js"></script> 
+	<script src="/dist/js/parallaxie.js"></script>
+	<script src="/dist/js/headline.js"></script>
+    <script src="/dist/js/custom.js"></script>
+    <script src="/dist/js/jquery.vide.js"></script>
 </body>
 </html>

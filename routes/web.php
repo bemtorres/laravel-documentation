@@ -23,6 +23,6 @@ Route::get('v1/documentacion/items', function () {
     return view('documentation.items');
 });
 
-Route::get('v1/documentacion/md', function () {
+Route::get('md', function () {
     return view('markdown.index');
 });
