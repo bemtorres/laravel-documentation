@@ -13,6 +13,4 @@ Route::get('/', function () {
 //     return view('documentation.items');
 // });
 
-// Route::get('md', function () {
-//     return view('markdown.index');
-// });
+Route::get('md', 'MenuControllers@index');
